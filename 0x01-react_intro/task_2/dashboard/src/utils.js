@@ -14,7 +14,8 @@ function getFooterCopy(isIndex) {
 }
 
 function getLatestNotification() {
-  const lastnotify = <strong>Urgent requirement</strong> + - complete by EOD;
+  const eod = '- complete by EOD';
+  const lastnotify = <strong>Urgent requirement</strong> + eod;
   return lastnotify;
 }
 
